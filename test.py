@@ -58,7 +58,7 @@ def test():
     lr = 0.001
     
     # save trained models
-    directory = "./preTrained/{}/{}level/".format(env_name, k_level) 
+    directory = "/content/Hierarchical-Actor-Critic-HAC-PyTorch/preTrained/{}/{}level/".format(env_name, k_level) 
     filename = "HAC_{}".format(env_name)
     #########################################################
     
